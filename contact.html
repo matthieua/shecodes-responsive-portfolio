@@ -67,22 +67,59 @@
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:patricia@gmail.com"> patricia@gmail.com </a>
-        </p>
-        <h3>Twitter</h3>
-        <p>
-          <a href="https://www.twitter.com/patricia" target="_blank">
-            @patricia
-          </a>
-        </p>
-        <h3>Instagram</h3>
-        <p>
-          <a href="https://www.instagram.com/patricia.codes" target="_blank">
-            @patricia.codes
-          </a>
-        </p>
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="https://formspree.io/f/mwkalajy"
+              method="POST"
+              class="border p-3 rounded mb-3"
+            >
+              <div class="mb-3">
+                <label class="form-label"> Your email: </label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  required
+                  autofocus
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label"> Your message: </label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  required
+                ></textarea>
+              </div>
+
+              <!-- your other form fields go here -->
+
+              <button type="submit" class="btn btn-branding">Send</button>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:patricia@gmail.com"> patricia@gmail.com </a>
+            </p>
+            <h3>Twitter</h3>
+            <p>
+              <a href="https://www.twitter.com/patricia" target="_blank">
+                @patricia
+              </a>
+            </p>
+            <h3>Instagram</h3>
+            <p>
+              <a
+                href="https://www.instagram.com/patricia.codes"
+                target="_blank"
+              >
+                @patricia.codes
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <footer class="container">
